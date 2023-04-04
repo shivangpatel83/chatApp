@@ -1,0 +1,88 @@
+/* font-family: 'Shantell Sans', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Shantell Sans', cursive;
+    background-image: linear-gradient(rgb(217, 16, 174), rgb(102, 102, 214));
+    height: 100vh;
+}
+
+.logo{
+    background-color: silver;
+   color: rgb(2, 102, 2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 50%;
+   margin: auto;
+  padding: 10px;
+}
+
+.logo .fa-rocketchat{
+    margin-right: 10px;
+}
+.chatarea{
+    width: 50%;
+    margin: auto;
+    height: 60vh;
+    background-color: lightsalmon;
+    border: 2px solid rgba(255, 166, 0, 0.852);
+    overflow-y: scroll;
+}
+
+.message{
+    background-color: lavender;
+    width: 25%;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 10px 12px;
+    border-radius: 15px;
+   
+}
+
+.left{
+   float: left;
+   clear: both;
+}
+.right{
+   float: right;
+   clear: both;
+}
+
+.sendbox{
+    width: 50%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#sendform{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#typearea{
+    width: 90%;
+    height: 30px;
+    outline: none;
+}
+.btn{
+    padding: 7px 18px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+}

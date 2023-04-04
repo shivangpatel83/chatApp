@@ -1,0 +1,15 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "this is nodeserver for the hellochat",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "shivang patel",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.21",
+    "socket.io": "^4.6.1"
+  }
+}
